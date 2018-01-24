@@ -30,7 +30,7 @@ MAINTAINER_EMAIL = 'mrigault@physik.hu-berlin.de'
 URL = 'https://github.com/MickaelRigault/propobject/'
 LICENSE = 'Apache 2.0'
 DOWNLOAD_URL = 'https://github.com/MickaelRigault/propobject/tarball/0.1'
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 
 try:
     from setuptools import setup, find_packages
@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
     if _has_setuptools:
         packages = find_packages()
-        print packages
+        print(packages)
     else:
         # This should be updated if new submodules are added
         packages = ['propobject']
