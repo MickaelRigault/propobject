@@ -30,7 +30,7 @@ MAINTAINER_EMAIL = 'mrigault@physik.hu-berlin.de'
 URL = 'https://github.com/MickaelRigault/propobject/'
 LICENSE = 'Apache 2.0'
 DOWNLOAD_URL = 'https://github.com/MickaelRigault/propobject/tarball/0.1'
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 
 try:
     from setuptools import setup, find_packages
@@ -72,7 +72,8 @@ if __name__ == "__main__":
           classifiers=[
               'Intended Audience :: Science/Research',
               'Programming Language :: Python :: 2.7',
-              'License :: OSI Approved :: Apache 2.0 License',
+              'Programming Language :: Python :: 3.5',
+              'License :: OSI Approved :: BSD License',
               'Topic :: Scientific/Engineering :: Astronomy',
               'Operating System :: POSIX',
               'Operating System :: Unix',
