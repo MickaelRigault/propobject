@@ -30,7 +30,7 @@ MAINTAINER_EMAIL = 'mrigault@physik.hu-berlin.de'
 URL = 'https://github.com/MickaelRigault/propobject/'
 LICENSE = 'Apache 2.0'
 DOWNLOAD_URL = 'https://github.com/MickaelRigault/propobject/tarball/0.1'
-VERSION = '0.1.2'
+VERSION = '0.1.3'
 
 try:
     from setuptools import setup, find_packages
