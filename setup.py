@@ -37,7 +37,7 @@ try:
     _has_setuptools = True
 except ImportError:
     from distutils.core import setup
-
+    _has_setuptools = False
 def check_dependencies():
    install_requires = []
    # Just make sure dependencies exist, I haven't rigorously
